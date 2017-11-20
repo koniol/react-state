@@ -43,18 +43,7 @@ var Counter = React.createClass({
 
 });
 
-var counters = [
-  {
-    id: 1,
-  },
-  {
-    id: 2,
-  },
-  {
-    id: 3,
-  }
-];
-
+var counters = [{id: 1, },  { id: 2, }, { id: 3, }];
 
 var Counters = React.createClass({
   propTypes: {
